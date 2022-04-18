@@ -1,0 +1,33 @@
+#contato{
+    max-width: 100vw;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000;
+}
+
+#contato__container{
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contato__autor{
+    color: rgb(0, 255, 0);
+}
+
+#contato__social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#contato__social-media a {
+    margin: 10px;
+}

@@ -1,0 +1,85 @@
+header{
+    max-width: 100vw;
+
+    background-color: #000000;
+    border-bottom: 2px dashed rgb(0, 255, 0);
+}
+
+#header__banner{
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;   
+    border-bottom: 2px dashed rgb(0, 255, 0); 
+}
+
+#header__banner--text{
+    color: rgb(0, 255, 0); 
+    font-size: 2em;
+    font-weight: 700;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    border-right: 0.7em solid rgb(0, 255, 0);
+}
+
+.typing__animation{
+    animation: blinkCursor 500ms steps(20) infinite normal,
+                typing 4s steps(20) 1s normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 9em;
+    }
+}
+
+@keyframes blinkCursor{
+    form{
+        border-right-color: rgb(0, 255, 0);
+    } 
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+#header__container--menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+#header__menu--opcoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+#header__menu--opcoes li a{
+   padding: 10px 10px;
+   margin: 10px;
+   font-weight: 700;
+
+   border: 1px solid transparent;
+
+   color: rgb(0, 255, 0);
+}
+
+#header__menu--opcoes li a:hover{
+    cursor: pointer;
+    border: 1px dashed rgb(0, 255, 0);
+    color: rgb(255, 0, 0);
+}
+
