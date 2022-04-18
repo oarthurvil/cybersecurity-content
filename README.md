@@ -20,13 +20,13 @@ Page with content about cybersecurity, links, courses and etc.
 
 ### Screenshot
 
-<img src="" alt="screenshot" style="width:200px;"/>
+<img src="https://github.com/oarthurvil/cybersecurity-content/blob/main/screenshot/screenshot.png" alt="screenshot" style="width:200px;"/>
 
 
 
 ### Links
 
-- Solution URL: [Link]()
+- Solution URL: [Link](https://oarthurvil.github.io/cybersecurity-content/)
 
 ## My process
 
